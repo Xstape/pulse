@@ -1,0 +1,111 @@
+@media (max-width: 1200px) {
+    .promo {
+        &__wrapper {
+            align-items: center;
+        }
+    }
+    .carousel {
+        img {
+            width: 85%;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .container {
+        padding: 0 20px;
+    }
+    .advantages {
+        &__wrapper {
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            padding-top: 0;
+        }
+        &__item {
+            padding-top: 30px;
+        }
+    }
+    .consultation {
+        .title_left {
+            font-size: 30px;
+            text-align: center;
+            br {
+                display: none;
+            }
+        }
+        &__descr {
+            text-align: center;
+        }
+        .feed-form {
+            margin: 0 auto;
+        }
+    }
+    .carousel {
+        &__inner {
+            width: 100%;
+        }
+        .slick-track {
+            width: 100%;
+        }
+        button {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 640px) {
+    .header {
+        flex-direction: column;
+        height: 200px;
+    }
+    .feed {
+        &__item {
+            gap: 30px;
+        }
+    }
+    .pageup {
+        right: 40px;
+    }
+}
+
+@media (max-width: 440px) {
+    .promo {
+        &__icons {
+            width: 100%;
+        }
+    }
+    .consultation {
+        .title {
+            font-size: 20px;
+        }
+        &__descr {
+            font-size: 16px;
+            font-weight: 300;
+        }
+        .feed-form {
+            width: 90%;
+        }
+    }
+    .catalog {
+        &__tab {
+            font-size: 12px;
+            font-weight: 300;
+            line-height: 45px;
+        }
+    }
+    .feed {
+        &__item {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    .footer {
+        &__info {
+            width: 100%;
+        }
+    }
+    .modal {
+        padding: 38px 10px;
+        border-radius: 10px;
+    }
+}
